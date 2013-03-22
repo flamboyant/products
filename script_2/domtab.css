@@ -1,0 +1,109 @@
+		*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	border:none;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		}
+		
+		div.domtab{
+	padding:0px;
+	width:514px;
+		}
+		ul.domtabs{
+	float:left;
+	width:515px;
+	margin-top: 5px;
+		}
+		ul.domtabs li{
+	float:left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+		}
+		ul.domtabs a:link,
+		ul.domtabs a:visited,
+		ul.domtabs a:active,
+		ul.domtabs a:hover{
+	display:block;
+	background:#90c049;
+	color:#333;
+	font-size:18px;
+	text-decoration:none;
+	text-align:center;
+	padding-top: 10px;
+	padding-right: 29px;
+	padding-bottom: 10px;
+	padding-left: 29px;
+		}
+		html>body ul.domtabs a:link,
+		html>body ul.domtabs a:visited,
+		html>body ul.domtabs a:active,
+		html>body ul.domtabs a:hover{
+	height:auto;
+	min-height:20px;
+		}
+		ul.domtabs a:hover{
+			background:#696;
+		}
+		div.domtab div{
+	clear:both;
+	width:auto;
+	background:#CCC;
+	color:#666;
+	padding:15px;
+		}
+		ul.domtabs li.active a:link,
+		ul.domtabs li.active a:visited,
+		ul.domtabs li.active a:active,
+		ul.domtabs li.active a:hover{
+			background:#CCC;
+			color:#666;
+		}
+		#domtabprintview{
+	float:right;
+	padding-right:10px;
+	text-align:right;
+		}
+		#domtabprintview a:link,
+		#domtabprintview a:visited,
+		#domtabprintview a:active,
+		#domtabprintview a:hover{
+			color:#fff;
+		}
+		p{
+	line-height:20px;
+	margin-bottom: 10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+		}
+		h1{
+	font-size:150%;
+	text-align:left;
+	font-weight:normal;
+	text-transform:uppercase;
+	font-family:"Trebuchet MS",Arial,Sans-Serif;
+		}
+		div.domtab div a:link,
+		div.domtab div a:visited,
+		div.domtab div a:active
+		{
+	color:#060;
+	display:block;
+	font-size:14px;
+	font-weight: bold;
+	padding-top: 10px;
+		}
+		div.domtab div h2 a,
+		div.domtab div h2 a:hover,
+		div.domtab div h2 a:active
+		{
+	color:#F30;
+	display:inline;
+	padding:0;
+	font-weight:normal;
+	font-size:1em;
+		}
+		
